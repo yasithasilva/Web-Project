@@ -6,13 +6,14 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
-  position: absolute;
+  position: sticky;
   margin: auto;
 }
 
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
+  position: sticky;
   height: 15px;
   width: 15px;
   margin: 0 2px;

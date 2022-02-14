@@ -1,9 +1,11 @@
 <html>
 <head>
 	<title> No Poverty SDG 01 </title>
+	<link rel="icon" href="among.png" type="image/gif" sizes="16x16">
 	<link rel="stylesheet" href="stylesheetone.css">
-	<link rel="stylesheet" href="navbar.css">
 	<link rel="stylesheet" href="slideshow.css">
+	<link rel="stylesheet" href="navbar.css">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
