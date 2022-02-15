@@ -33,7 +33,7 @@ padding-top: 10px;
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #000000;
-  opacity: 60%;
+  opacity: 75%;
   color: white;
 }
 
