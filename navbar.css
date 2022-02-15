@@ -1,8 +1,16 @@
+body {
+	margin:0;
+	float:top;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #B90E0A;
   overflow: hidden;
   height:80px;
+  position: sticky;  /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index:100;
 }
 
 /* Style the links inside the navigation bar */
@@ -12,8 +20,9 @@
   text-align: center;
   padding: 30px 30px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-family:Microsoft YaHei UI;
+ 
 }
 
 /* Change the color of links on hover */
