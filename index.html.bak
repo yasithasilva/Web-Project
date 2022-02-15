@@ -1,7 +1,7 @@
 <html>
 <head>
-	<title> No Poverty SDG 01 </title>
-	<link rel="icon" href="among.png" type="image/gif" sizes="16x16">
+	<title> Grow Together </title>
+	<link rel="icon" href="among1.png" type="image/gif" sizes="16x16">
 	<link rel="stylesheet" href="stylesheetone.css">
 	<link rel="stylesheet" href="slideshow.css">
 	<link rel="stylesheet" href="navbar.css">
@@ -11,19 +11,22 @@
 <body>
 	<div class="topnav">
 		
-		<img src="Asset2.png" height=60px style=padding:10px 10px 10px 0px>
-		<a class="active" href="index.html">Home</a>
-		<a href="news.html">News</a>
-		<a href="action.html">Action</a>
-		<a href="Contribution.html">Contribution</a>
-		<a href="about.html">About</a>
+		<img src="Asset2.png" height=60px>
+		<a href="about.html">ABOUT</a>
+		<a href="Contribution.html">CONTRIBUTION</a>
+		<a href="action.html">ACTION</a>
+		<a href="donations.html">DONATE</a>
+		<a href="volunteer.html">VOLUNTEER</a>
+		<a class="active" href="index.html">HOME</a>
+		
+		
 	</div>
 	
 	
 	<div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="val1.jpg" style="width:100%">
+  <img src="cvr1.jpg" style="width:100%">
 </div>
 
 <div class="mySlides fade">
