@@ -1,22 +1,80 @@
 <html>
 <head>
-	<title> No Poverty SDG 01 </title>
+	<title> Grow Together </title>
+	<link rel="icon" href="among1.png" type="image/gif" sizes="16x16">
 	<link rel="stylesheet" href="stylesheetone.css">
+	<link rel="stylesheet" href="slideshow.css">
 	<link rel="stylesheet" href="navbar.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="topnav">
 		
-		<img src="Asset2.png" height=60px style=padding:10px 10px 10px 0px>
-		<a class="active" href="index.html">Home</a>
-		<a href="news.html">News</a>
-		<a href="action.html">Action</a>
-		<a href="Contribution.html">Contribution</a>
-		<a href="about.html">About</a>
+		<img src="Asset2.png" height=60px>
+		<a href="about.html">ABOUT</a>
+		<a href="Contribution.html">CONTRIBUTION</a>
+		<a href="action.html">ACTION</a>
+		<a href="donations.html">DONATE</a>
+		<a href="volunteer.html">VOLUNTEER</a>
+		<a class="active" href="index.html">HOME</a>
+		
+		
 	</div>
 	
 	
-<h1> NO POVERTY </h1>
+	<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="cvr1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="val2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="val3.jpg" style="width:100%">
+</div>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+		
+
 <h6> SDG Goal 01 </h6>
 
 </body>
