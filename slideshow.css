@@ -1,4 +1,4 @@
-{box-sizing: border-box}
+*{box-sizing : border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -56,9 +56,10 @@ img {vertical-align: middle;}
   position: absolute;
   top: 680px;
   left: 50%;
-<<<<<<< HEAD
+
   z-index: 99;
-=======
+
   z-index: 999;
->>>>>>> parent of 2026f9b (Revert "Merge branch 'main' of https://github.com/yasithasilva/Web-Project")
+
+  z-index: 999;
 }
