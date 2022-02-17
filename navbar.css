@@ -1,23 +1,11 @@
-body {
-	margin:0;
-	float:top;
-}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #B90E0A;
   overflow: hidden;
   z-index:999;
   height:80px;
-  position: sticky;  /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  z-index:100;
 }
 
-.topnav img{
-padding-left: 30px;
-padding-top: 10px;
-}
 /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
@@ -25,21 +13,18 @@ padding-top: 10px;
   text-align: center;
   padding: 30px 30px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   font-family:Microsoft YaHei UI;
- 
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #000000;
-  opacity: 75%;
+  background-color: #221f1f;
   color: white;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #000000;
-  opacity: 90%;
+  background-color: #221f1f;
   color: white;
 }
